@@ -8,3 +8,9 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 ----
+git init 
+git add .
+git commit -m "first commit"
+git remote add origin <REMOTE_URL>
+git remote -v
+git remote rm origin
