@@ -1,0 +1,10 @@
+pip install virtualenv
+python -m venv .venv  
+cd .venv 
+cd Scripts
+.\activate
+-----
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+----
